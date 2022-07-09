@@ -25,6 +25,30 @@ body {
     background-color: #FFB703!important;
 }
 
+/* Formatação do corpo
+-------------------------------------------------*/
+
+.corpo {
+    margin-top: 20px;
+}
+
+.mini-texto {
+    background-color: #8ECAE6;
+    padding: 20px;
+    line-height: 1.5rem;
+}
+
+.reserva {
+    background-color: #219EBC;
+    padding: 20px;
+}
+
+h4 {
+    text-align: center;
+    background-color: #023047;
+    color: #fff;
+}
+
 /* Breakpoints responsivos com Media Queries
 -------------------------------------------------*/
 

@@ -2,6 +2,7 @@
 <html lang="pt-br">
 
 <head>
+    <!-- Meta tags Obrigatórias -->
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -26,7 +27,7 @@
 </head>
 
 <body class="home">
-    <div class="container">
+    <div class="container-fluid">
         <header>
             <nav class="navbar navbar-expand-md bg-topo navbar-dark">
                 <a href="index.html" class="navbar-brand">
@@ -59,11 +60,58 @@
             </nav>
         </header>
 
-        <section></section>
-    </div> <!-- fim do container -->
+        <section class="corpo">
+            <div class="container-fluid">
+                <div class="row align-items-center">
+                    <div class="col-md-6">
+                        <p class="text-justify">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean quis odio sodales, aliquet eros accumsan, luctus justo. Duis rutrum libero eget quam faucibus aliquet. Donec fringilla tellus malesuada est vulputate commodo. Fusce felis risus, placerat at interdum eget, facilisis sed purus. Sed ac mi vel magna placerat hendrerit blandit at massa. Suspendisse imperdiet vehicula augue, ac lacinia libero. Quisque eu elementum ligula. Maecenas mollis id mi nec blandit. Duis non eleifend turpis, in pulvinar elit. Aliquam justo purus, efficitur non orci at, vehicula consectetur mi. Maecenas eget sem sit amet dolor hendrerit eleifend id vitae urna. Praesent rhoncus velit sit amet sapien consequat ultrices. Sed eu augue volutpat, laoreet dui sed, sagittis diam.
+                        </p>
+                    </div> <!-- fim da coluna esquerda -->
+    
+                    <div class="col-md-6 reserva">
+                        <h4>Reserve sua viagem</h4>
+                        
+                        <div class="row">
+                            <div class="col-md-6">
+                                <form>
+                                    <div class="form-group">
+                                        <label for="ida">Data da ida:</label>
+                                        <input type="date" class="form-control" name="" id="ida">
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="volta">Data da volta:</label>
+                                        <input type="date" class="form-control" name="" id="volta">
+                                    </div>
+                                </form>
+                            </div> <!-- fim da coluna esquerda -->
+
+                            <div class="col-md-6">
+                                <form>
+                                    <div class="form-group">
+                                        <label for="ida">Horário da ida:</label>
+                                        <input type="time" class="form-control" name="" id="ida">
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="volta">Horário da volta:</label>
+                                        <input type="time" class="form-control" name="" id="volta">
+                                    </div>
+                                </form>
+                            </div> <!-- fim da coluna direita -->
+                        </div>
+
+                        <button type="button" class="btn btn-warning btn-block">Reservar</button>
+                    </div> <!-- fim da coluna direita -->
+                </div>
+            </div>
+        </section> <!-- fim do corpo-->
+    </div> <!-- fim do container principal -->
 
 
 
+
+    <!-- JavaScript (Opcional) -->
+    <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
         crossorigin="anonymous"></script>
