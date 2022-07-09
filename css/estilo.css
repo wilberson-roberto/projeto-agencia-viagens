@@ -1,0 +1,49 @@
+/* Estrutura do site
+-------------------------------------------------*/
+
+body {
+    background: #faf3e3;
+    font: 16px Helvetica, Arial, sans-serif;
+}
+
+/* Formatação do topo
+-------------------------------------------------*/
+
+.bg-topo {
+    background: #001D3D;
+    border-radius: 0 0 15px 15px ;
+}
+
+.home #home a,
+.destino #destino a,
+.promo #promo a,
+.contato #contato {
+    border-bottom: 2px solid #FFB703;
+}
+
+.navbar-toggler {
+    background-color: #FFB703!important;
+}
+
+/* Breakpoints responsivos com Media Queries
+-------------------------------------------------*/
+
+@media (max-width: 575.98px) { /* Extra Small */
+    
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) { /* Small */
+    
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) { /* Medium */
+    
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) { /* Large */
+    
+}
+
+@media (min-width: 1200px) { /* Extra large */
+    
+}
