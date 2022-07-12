@@ -27,7 +27,7 @@
 </head>
 
 <body class="home">
-    <div class="container-fluid">
+    <div class="container">
         <header>
             <nav class="navbar navbar-expand-md bg-topo navbar-dark">
                 <a href="index.html" class="navbar-brand">
@@ -61,15 +61,16 @@
         </header>
 
         <section class="corpo">
-            <div class="container-fluid">
-                <div class="row align-items-center">
-                    <div class="col-md-6">
-                        <p class="text-justify">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean quis odio sodales, aliquet eros accumsan, luctus justo. Duis rutrum libero eget quam faucibus aliquet. Donec fringilla tellus malesuada est vulputate commodo. Fusce felis risus, placerat at interdum eget, facilisis sed purus. Sed ac mi vel magna placerat hendrerit blandit at massa. Suspendisse imperdiet vehicula augue, ac lacinia libero. Quisque eu elementum ligula. Maecenas mollis id mi nec blandit. Duis non eleifend turpis, in pulvinar elit. Aliquam justo purus, efficitur non orci at, vehicula consectetur mi. Maecenas eget sem sit amet dolor hendrerit eleifend id vitae urna. Praesent rhoncus velit sit amet sapien consequat ultrices. Sed eu augue volutpat, laoreet dui sed, sagittis diam.
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 capa">
+                        <img src="img/praia.jpg" alt="">
+                        <p class="text-justify mini-texto">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean quis odio sodales, aliquet eros accumsan, luctus justo. Duis rutrum libero eget quam faucibus aliquet.
                         </p>
                     </div> <!-- fim da coluna esquerda -->
-    
-                    <div class="col-md-6 reserva">
+
+                    <div class="col-lg-4 reserva">
                         <h4>Reserve sua viagem</h4>
                         
                         <div class="row">
@@ -105,6 +106,91 @@
                 </div>
             </div>
         </section> <!-- fim do corpo-->
+
+        <section class="corpo">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div id="carousel2" class="carousel slide" data-ride="carousel">
+                                    <div class="carousel-inner">
+                                      <div class="carousel-item active">
+                                        <img class="d-block img-fluid" src="img/china.jpg" alt="Primeiro Slide">
+                                      </div>
+                                      <div class="carousel-item">
+                                        <img class="d-block img-fluid" src="img/noronha.jpg" alt="Segundo Slide">
+                                      </div>
+                                      <div class="carousel-item">
+                                        <img class="d-block img-fluid" src="img/paris.jpg" alt="Terceiro Slide">
+                                      </div>
+                                    </div>
+                                    <a class="carousel-control-prev" href="#carousel2" role="button" data-slide="prev">
+                                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                      <span class="sr-only">Anterior</span>
+                                    </a>
+                                    <a class="carousel-control-next" href="#carousel2" role="button" data-slide="next">
+                                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                      <span class="sr-only">Próximo</span>
+                                    </a>
+                                  </div>
+                            </div>
+
+                            <div class="col-md-6">
+                                <div id="carousel1" class="carousel slide" data-ride="carousel">
+                                    <div class="carousel-inner">
+                                      <div class="carousel-item active">
+                                        <img class="d-block img-fluid" src="img/madrid.jpg" alt="Primeiro Slide">
+                                      </div>
+                                      <div class="carousel-item">
+                                        <img class="d-block img-fluid" src="img/holanda.jpg" alt="Segundo Slide">
+                                      </div>
+                                      <div class="carousel-item">
+                                        <img class="d-block img-fluid" src="img/sydney.jpg" alt="Terceiro Slide">
+                                      </div>
+                                    </div>
+                                    <a class="carousel-control-prev" href="#carousel1" role="button" data-slide="prev">
+                                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                      <span class="sr-only">Anterior</span>
+                                    </a>
+                                    <a class="carousel-control-next" href="#carousel1" role="button" data-slide="next">
+                                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                      <span class="sr-only">Próximo</span>
+                                    </a>
+                                  </div>
+                            </div>
+                        </div>
+                    </div> <!-- fim da coluna esquerda -->
+                    <div id="mini-img" class="col-md-4">
+                        <a href="" class="position-relative d-inline-block">
+                            <img id="img-link" src="img/rj-br.jpg" alt="" class="img-fluid">
+                            <figcaption class="img-description">Rio de janeiro</figcaption>
+                        </a>
+                        <a href="" class="position-relative d-inline-block">
+                            <img id="img-link" src="img/fuji-jp.jpg" alt="" class="img-fluid">
+                            <figcaption class="img-description d-block">Mote fuji</figcaption>
+                        </a>
+                        <a href="" class="position-relative d-inline-block">
+                            <img id="img-link" src="img/londres-uk.jpg" alt="" class="img-fluid">
+                            <figcaption class="img-description d-block">Londres</figcaption>
+                        </a>
+                        <a href="" class="position-relative d-inline-block">
+                            <img id="img-link" src="img/africa.jpg" alt="" class="img-fluid">
+                            <figcaption class="img-description d-block">África do Sul</figcaption>
+                        </a>
+                    </div> <!-- fim da coluna direita -->
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            &copy;Copyright - 2022 <a href="" class="">Viagens Legais</a>
+            <span class="social">
+                <a href=""><i class="fab fa-instagram-square fa-2x p-2"></i></a>
+            <a href=""><i class="fab fa-twitter-square fa-2x p-2"></i></a>
+            <a href=""><i class="fab fa-facebook fa-2x p-2"></i></a>
+            </span>
+        </footer>
     </div> <!-- fim do container principal -->
 
 

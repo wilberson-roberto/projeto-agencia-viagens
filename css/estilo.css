@@ -32,10 +32,17 @@ body {
     margin-top: 20px;
 }
 
+.capa img {
+    width: 100%;
+    height: 300px;
+}
+
 .mini-texto {
-    background-color: #8ECAE6;
+    background-color: #ffffff;
+    position: absolute;
+    opacity: 0.7;
     padding: 20px;
-    line-height: 1.5rem;
+    top: 160px;
 }
 
 .reserva {
@@ -49,6 +56,56 @@ h4 {
     color: #fff;
 }
 
+.carousel-inner {
+    border: 10px solid #8ECAE6;
+    border-radius: 15px;
+    height: 440px;
+    width: 100%;
+}
+
+#img-link {
+    margin-bottom: 17px;
+}
+
+ .img-description {
+    position: absolute;
+    background: #000;
+    color: #fff;
+    font-size: 0.7rem;
+    font-family: monospace;
+    text-transform: uppercase;
+    padding: 8px;
+    width: 100%;
+    text-align: center;
+    opacity: 0.7;
+    top: 70px;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #8ECAE6;
+}
+
+/* Formatação do rodapé
+-------------------------------------------------*/
+
+footer {
+    background-color: #000814;
+    color: #fff;
+    text-align: center;
+    border-radius: 15px 15px 0 0;
+    margin-top: 20px;
+}
+
+footer a {
+    color: #FFB703;
+}
+
+.social {
+    position: relative;
+    left: 20%;
+}
+
 /* Breakpoints responsivos com Media Queries
 -------------------------------------------------*/
 
@@ -57,11 +114,17 @@ h4 {
 }
 
 @media (min-width: 576px) and (max-width: 767.98px) { /* Small */
-    
+    .capa img {
+        margin-bottom: 20px;
+        height: auto;
+    }
 }
 
 @media (min-width: 768px) and (max-width: 991.98px) { /* Medium */
-    
+    .capa img {
+        margin-bottom: 20px;
+        height: auto;
+    }
 }
 
 @media (min-width: 992px) and (max-width: 1199.98px) { /* Large */
