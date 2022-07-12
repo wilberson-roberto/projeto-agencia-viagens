@@ -2,76 +2,170 @@
 <html lang="pt-br">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Meta tags Obrigatórias -->
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <!-- Font awesome -->
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
-        integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous" />
+  <!-- Font awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+    integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous" />
 
-    <!-- Normalize CSS -->
-    <link rel="stylesheet" href="css/normalize.css">
+  <!-- Normalize CSS -->
+  <link rel="stylesheet" href="css/normalize.css">
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
-        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 
-    <!-- Estilo customizado -->
-    <link rel="stylesheet" type="text/css" href="css/estilo.css">
+  <!-- Estilo customizado -->
+  <link rel="stylesheet" type="text/css" href="css/estilo.css">
 
-    <link rel="icon" href="img/vl.png">
+  <link rel="icon" href="img/vl.png">
 
-    <title>Viagens Legais</title>
+  <title>Viagens Legais</title>
 </head>
 
-<body class="home">
-    <div class="container">
-        <header>
-            <nav class="navbar navbar-expand-md bg-topo navbar-dark">
-                <a href="index.html" class="navbar-brand">
-                    <img src="img/logo-vl.png" class="img-fluid">
-                </a>
+<body>
+  <div class="container">
+    <header>
+      <nav class="navbar navbar-expand-md bg-topo navbar-dark">
+        <a href="index.html" class="navbar-brand">
+          <img src="img/logo-vl.png" class="img-fluid">
+        </a>
 
-                <button class="navbar-toggler bg-primary" data-toggle="collapse" data-target="#menu">
-                    <i class="fas fa-bars text-light"></i>
-                </button>
+        <button class="navbar-toggler bg-primary" data-toggle="collapse" data-target="#menu">
+          <i class="fas fa-bars text-light"></i>
+        </button>
 
-                <div id="menu" class="collapse navbar-collapse">
-                    <ul class="navbar-nav ml-auto">
-                        <li id="home" class="nav-item">
-                            <a href="index.html" class="nav-link active">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="" class="nav-link">Destino</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="" class="nav-link">Promoções</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="" class="nav-link">Contato</a>
-                        </li>
+        <div id="menu" class="collapse navbar-collapse">
+          <ul class="navbar-nav ml-auto">
+            <li id="home" class="nav-item">
+              <a href="index.html" class="nav-link">Home</a>
+            </li>
+            <li id="destino" class="nav-item">
+              <a href="destino.html" class="nav-link">Destino</a>
+            </li>
+            <li id="promo" class="nav-item">
+              <a href="promo.html" class="nav-link">Promoções</a>
+            </li>
+            <li id="contato" class="nav-item">
+              <a href="contato.html" class="nav-link active">Contato</a>
+            </li>
+            <li class="nav-item">
+              <a href="cadastro.html" class="btn btn-warning ml-5 float-right">Logar</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
 
-                        <button class="btn btn-warning ml-5">Login/Cadastro</button>
-                    </ul>
-                </div>
-            </nav>
-        </header>
+    <section class="corpo">
+      <div class="container">
+        <div class="fundo-login mb-5">
+          <h2 class="text-center">Faça seu login</h2>
+          <div class="form-group">
+            <div class="form-row">
+              <div class="form-group col-md-6">
+                <label for="inputEmail4">Email</label>
+                <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
+              </div>
+              <div class="form-group col-md-6">
+                <label for="inputPassword4">Senha</label>
+                <input type="password" class="form-control" id="inputPassword4" placeholder="Senha">
+              </div>
+            </div>
+            <button type="submit" class="btn btn-primary btn-block">Cadastrar</button>
+            <div class="esqueceu">
+              <a href="">Esqueceu a senha?</a>
+            </div>
+          </div>
+        </div>
+          <div class="container">
+            <h2 class="text-center">Faça seu cadastro</h2>
+            <div class="row fundo-contato">
+              <div class="col">
+                <form>
+                  <div class="form-group">
+                    <label for="inputAddres">Nome Completo</label>
+                    <input type="text" class="form-control" id="inputAddres">
+                  </div>
+                  <div class="form-row">
+                    <div class="form-group col-md-6">
+                      <label for="inputEmail4">Email</label>
+                      <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
+                    </div>
+                    <div class="form-group col-md-6">
+                      <label for="inputPassword4">Senha</label>
+                      <input type="password" class="form-control" id="inputPassword4" placeholder="Senha">
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <label for="inputAddress">Endereço</label>
+                    <input type="text" class="form-control" id="inputAddress" placeholder="Rua dos Bobos, nº 0">
+                  </div>
+                  <div class="form-group">
+                    <label for="inputAddress2">Endereço 2</label>
+                    <input type="text" class="form-control" id="inputAddress2"
+                      placeholder="Apartamento, hotel, casa, etc.">
+                  </div>
+                  <div class="form-row">
+                    <div class="form-group col-md-6">
+                      <label for="inputCity">Cidade</label>
+                      <input type="text" class="form-control" id="inputCity">
+                    </div>
+                    <div class="form-group col-md-4">
+                      <label for="inputEstado">Estado</label>
+                      <select id="inputEstado" class="form-control">
+                        <option selected>Escolher...</option>
+                        <option>...</option>
+                      </select>
+                    </div>
+                    <div class="form-group col-md-2">
+                      <label for="inputCEP">CEP</label>
+                      <input type="text" class="form-control" id="inputCEP">
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <div class="form-check">
+                      <input class="form-check-input" type="checkbox" id="gridCheck">
+                      <label class="form-check-label" for="gridCheck">
+                        Deseja receber promoções em seu e-mail?
+                      </label>
+                    </div>
+                  </div>
+                  <button type="submit" class="btn btn-warning btn-block">Cadastrar</button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+    </section> <!-- fim do corpo-->
 
-        <section></section>
-    </div> <!-- fim do container -->
+    <footer>
+      &copy;Copyright - 2022 <a href="" class="">Viagens Legais</a>
+      <span class="social">
+        <a href=""><i class="fab fa-instagram-square fa-2x p-2"></i></a>
+        <a href=""><i class="fab fa-twitter-square fa-2x p-2"></i></a>
+        <a href=""><i class="fab fa-facebook fa-2x p-2"></i></a>
+      </span>
+    </footer>
+  </div> <!-- fim do container principal -->
 
 
 
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-        crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
-        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
-        crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
-        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
-        crossorigin="anonymous"></script>
+
+  <!-- JavaScript (Opcional) -->
+  <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+    integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+    integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+    crossorigin="anonymous"></script>
 </body>
 
 </html>
