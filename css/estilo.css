@@ -103,7 +103,7 @@ footer a {
 
 .social {
     position: relative;
-    left: 20%;
+    left: 5%;
 }
 
 /* Breakpoints responsivos com Media Queries
@@ -111,13 +111,14 @@ footer a {
 
 @media (max-width: 575.98px) { /* Extra Small */
     
-}
-
+}    
 @media (min-width: 576px) and (max-width: 767.98px) { /* Small */
     .capa img {
         margin-bottom: 20px;
         height: auto;
     }
+
+    
 }
 
 @media (min-width: 768px) and (max-width: 991.98px) { /* Medium */
@@ -125,11 +126,14 @@ footer a {
         margin-bottom: 20px;
         height: auto;
     }
+
+    
 }
 
 @media (min-width: 992px) and (max-width: 1199.98px) { /* Large */
     
 }
+
 
 @media (min-width: 1200px) { /* Extra large */
     
